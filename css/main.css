@@ -47,12 +47,16 @@ h1 {
 	margin: 0;
 }
 
-section a {
+section a,
+#zen-requirements a,
+#zen-participation a {
 	color: #e40cd2;
 }
-section a:visited { 
+section a:hover,
+#zen-requirements a:hover,
+#zen-participation a:hover{ 
 	color: #d2e40c;
-	}
+}
 
 #zen-intro h3,
 #zen-explanation h3 {
